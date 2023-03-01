@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+body{
+    background:rgba(0, 0, 0, 0.917);
+    margin: 30px 0px;
+}
+h1{
+    font-size: 2em; 
+}
+h2{
+    font-size: 1.2em;  
+}
+h1, h2{
+    padding-bottom: 6px ;
+    color:white;
+}
+h3{ 
+    font-size: 1em;
+    color:  rgba(68, 30, 238, 0.849) ;
+    padding: 15px 0px;
+}
+h6{
+    font-size: 0.8em;
+    color: rgba(8, 83, 245, 0.781);
+}
+.perfil{
+    border-radius: 100%;
+    width: 210px;
+    height: 210px;
+    margin-top: 5px;
+    border: 1.5px solid black;
+}
+.padding{
+    padding-top: 70px;
+}
+.centrar{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 7px;
+   padding-right: 7px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    width: 70%;
+    background-image:linear-gradient( rgba(5, 21, 110, 0.637) 100%,rgb(4, 4, 247)100%),url(img/programadora.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+.container1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px , 1fr));
+    background-color: rgba(255, 255, 255, 0.904);
+    width: 70%;
+    height: 80%;
+    padding-top: 2%;
+}
+p, a{
+    font-size: 0.9em;
+}
+ul {
+    list-style: none;
+}
+li{
+    font-size: 0.9em;
+    padding: 8px 0px;
+}
+a, a:visited{
+    color: black;
+  }
+a:hover, a:active {
+    color: rgb(87, 1, 121);
+  }
+a:link{
+   text-decoration: none;
+}
+.padding1{
+    padding-bottom: 20px;
+} 
+.ventana,.ventana1 {
+    position:fixed;
+    top:2.5%;
+    left: 19%;
+    width: 63%;
+    display: none;
+}
+.diplomatura{
+    text-align: center;
+    width: 99%; 
+}
+.icono {
+position: fixed;
+top: 3.5%;
+left: 79.5%;
+width: 1.5%;
+}
+.button{
+    display: block;
+    margin: 20px 0px; 
+    padding: 4px 0px;
+    border:1px solid #2929a8 ;
+    border-radius: 5px;
+    background: rgba(8, 76, 223, 0.781);
+    width: 60%;
+    text-align: center;
+    box-shadow: 5px 5px 10px 3px rgba(0,0,0,0.4);;
+}
