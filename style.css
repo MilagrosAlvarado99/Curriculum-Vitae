@@ -26,10 +26,6 @@ h3{
     color:  rgba(68, 30, 238, 0.849) ;
     padding: 15px 0px;
 }
-h6{
-    font-size: 0.8em;
-    color: rgba(8, 83, 245, 0.781);
-}
 .perfil{
     border-radius: 100%;
     width: 210px;
@@ -62,25 +58,30 @@ h6{
     height: 80%;
     padding-top: 2%;
 }
-p, a{
+p{
     font-size: 0.9em;
 }
+
 ul {
     list-style: none;
-}
-li{
+  }
+  
+  li {
     font-size: 0.9em;
     padding: 8px 0px;
-}
-a, a:visited{
+  }
+  
+  a, a:visited {
     color: black;
   }
-a:hover, a:active {
+  
+  a:hover, a:active {
     color: rgb(87, 1, 121);
   }
-a:link{
-   text-decoration: none;
-}
+  
+  a:link {
+    text-decoration: none;
+  }
 .padding1{
     padding-bottom: 20px;
 } 
